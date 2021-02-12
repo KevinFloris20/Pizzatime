@@ -1,12 +1,5 @@
 # Pizzatime :D
 
-## Creditors 
-
-- Obviously me Kevin Floris: (kevinfloris20)
-
-- And the dominos node.js module work goes to: (RIAEvangelist)
-
-- (You have full permission to use my code just please link my github name, thanks. Also if u become rich off my code feel free to share :D)
 
 ## Description
 
@@ -26,3 +19,11 @@ This website sends dominos pizza to your house, but better.
 ## Screenshots
 
 im not done :p
+
+## Creditors 
+
+- Obviously me Kevin Floris: (kevinfloris20)
+
+- And the dominos node.js module work goes to: (RIAEvangelist)
+
+- (You have full permission to use my code just please link my github name, thanks. Also if u become rich off my code feel free to share :D)
