@@ -27,13 +27,14 @@ function getid(){
         function(storeData){
             console.log(storeData.result.Stores[0].StoreID);
             idd = storeData.result.Stores[0].StoreID;
+            menu();
         }
     );
 }
 
 function menu(){
   var pizzapi = require('dominos');
-  var myStore = new pizzapi.Store({ ID: 4571 });
+  var myStore = new pizzapi.Store({ ID: idd });
 
   myStore.getMenu(
       function(storeData){
@@ -42,5 +43,9 @@ function menu(){
   );
 }
 
-//getid();
-menu();
+getid();
+
+
+
+//promises
+//async await functions
